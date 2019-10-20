@@ -22,4 +22,4 @@ res = dict({'queimadas': res})
 
 print(res)
 
-request.post("onde vou mandar", json={'focos':res})
+request.post("https ://localhost:3333/fires", json={'focos':res})
